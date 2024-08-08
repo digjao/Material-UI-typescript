@@ -1,0 +1,32 @@
+{
+    "pessoas": [
+      {
+        "id": 1,
+        "nome": "Juca",
+        "sobrenome": "Silva"
+      },
+      {
+        "id": 2,
+        "nome": "Maria",
+        "sobrenome": "Oliveira"
+      },
+      {
+        "id": 3,
+        "nome": "João",
+        "sobrenome": "Souza"
+      }
+    ],
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "Produto 1",
+        "preco": 100
+      },
+      {
+        "id": 2,
+        "nome": "Produto 2",
+        "preco": 200
+      }
+    ]
+  }
+  
