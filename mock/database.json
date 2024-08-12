@@ -1,16 +1,10 @@
 {
   "pessoas": [
     {
-      "id": 4,
-      "email": "ana@yahoo.com",
-      "cidadeId": 4,
-      "nomeCompleto": "Ana Beatriz"
-    },
-    {
       "id": 5,
+      "nomeCompleto": "Carlos Eduardo Souza",
       "email": "carlos@outlook.com",
-      "cidadeId": 5,
-      "nomeCompleto": "Carlos Eduardo"
+      "cidadeId": 1
     },
     {
       "id": 6,
