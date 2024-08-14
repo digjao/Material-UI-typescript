@@ -1,5 +1,5 @@
 import { Avatar, Box, Divider, Drawer, Icon, List, ListItemButton, ListItemIcon, ListItemText, useMediaQuery, useTheme } from "@mui/material"
-import { AppThemeProvider, useAppThemeContext, useDrawerContext } from "../../contexts"
+import { useAppThemeContext, useDrawerContext } from "../../contexts"
 import React from "react"
 import { useMatch, useNavigate, useResolvedPath } from "react-router-dom";
 
