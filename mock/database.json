@@ -2,9 +2,9 @@
   "pessoas": [
     {
       "id": 5,
+      "nomeCompleto": "Carlos Eduardo",
       "email": "carlos@outlook.com",
-      "cidadeId": 5,
-      "nomeCompleto": "Carlos Eduardo"
+      "cidadeId": 1
     },
     {
       "id": 6,
@@ -96,5 +96,8 @@
       "email": "fogao@gmail.com",
       "cidadeId": 1
     }
-  ]
+  ],
+  "auth": {
+    "accessToken": "IssoAquiéUmTokenFake"
+  }
 }
