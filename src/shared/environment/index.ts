@@ -1,11 +1,9 @@
-
-
 export const Environment = {
-    LIMITE_DE_LINHAS: 5,
-    
-    INPUT_DE_BUSCA: 'Pesquisar...',
+  LIMITE_DE_LINHAS: 5,
 
-    LISTAGEM_VAZIA: 'Nenhum registro encontrado.',
+  INPUT_DE_BUSCA: "Pesquisar...",
 
-    URL_BASE: 'http://localhost:3333',
-}
+  LISTAGEM_VAZIA: "Nenhum registro encontrado.",
+
+  URL_BASE: "http://localhost:3333",
+};

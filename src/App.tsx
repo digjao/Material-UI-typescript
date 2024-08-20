@@ -1,31 +1,26 @@
-import { BrowserRouter } from "react-router-dom"
-import { AppRoutes } from "./routes"
-import { AppThemeProvider, AuthProvider, DrawerProvider } from "./shared/contexts"
-import { Login, MenuLateral } from "./shared/components"
-
-
-
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./routes";
+import {
+  AppThemeProvider,
+  AuthProvider,
+  DrawerProvider,
+} from "./shared/contexts";
+import { Login, MenuLateral } from "./shared/components";
 
 export function App() {
-  
   return (
     <AuthProvider>
       <AppThemeProvider>
         <Login>
           <DrawerProvider>
             <BrowserRouter>
-              
               <MenuLateral>
-                <AppRoutes />        
+                <AppRoutes />
               </MenuLateral>
-            
             </BrowserRouter>
           </DrawerProvider>
         </Login>
       </AppThemeProvider>
     </AuthProvider>
-    
-    
-  )
+  );
 }
-
